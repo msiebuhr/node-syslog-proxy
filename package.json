@@ -1,0 +1,37 @@
+{
+  "name": "syslog-proxy",
+  "version": "0.0.0",
+  "description": "Simple syslog interface with inheritable prefixes.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "sinon": "~1.7.3",
+    "unexpected": "~1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "sinon": "~1.7.3",
+    "unexpected": "~1.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/msiebuhr/node-syslog-proxy"
+  },
+  "keywords": [
+    "syslog",
+    "logging",
+    "proxy",
+    "prefix",
+    "inheritance"
+  ],
+  "author": "Morten Siebuhr",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/msiebuhr/node-syslog-proxy/issues"
+  }
+}
